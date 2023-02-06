@@ -4,6 +4,6 @@ python -m venv venv<br>
 source venv/bin/activate<br>
 pip install -r requirements.txt<br><br>
 To serve app locally:<br>
-panel serve --show eyci_estli.ipynb<br>
+panel serve --show eyci_estli.ipynb<br><br>
 To deploy to app engine:<br>
 gcloud app deploy .\app.yaml
